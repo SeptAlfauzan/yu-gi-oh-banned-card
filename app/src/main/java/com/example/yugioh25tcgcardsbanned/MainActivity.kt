@@ -6,36 +6,34 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.yugioh25tcgcardsbanned.data.Card
-import com.example.yugioh25tcgcardsbanned.data.CardRecycleViewAdapter
+import com.example.yugioh25tcgcardsbanned.utils.recyclerView.CardRecycleViewAdapter
+import com.example.yugioh25tcgcardsbanned.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
-    private lateinit var rvCards: RecyclerView
-//    private lateinit var viewBinding
+    private lateinit var viewBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        rvCards = findViewById(R.id.rv_card)
-        rvCards.setHasFixedSize(true)
+        viewBinding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(viewBinding.root)
 
         initRecyclerView()
     }
 
     private fun initRecyclerView(){
         val cards = getAllData()
-        val gridLayoutManager = LinearLayoutManager(this)
-        rvCards.apply {
-            layoutManager = gridLayoutManager
+        val linearLayoutManager = LinearLayoutManager(this)
+
+        viewBinding.rvCard.apply {
+            setHasFixedSize(true)
             adapter = CardRecycleViewAdapter(cards, onClick = {
                 Log.d("Main Acityv", "initRecyclerView: $it")
                 openCardDetail(it)
             })
+            layoutManager = linearLayoutManager
         }
     }
 

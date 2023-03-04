@@ -9,12 +9,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
 import com.example.yugioh25tcgcardsbanned.data.Card
+import com.example.yugioh25tcgcardsbanned.databinding.ActivityCardDetailBinding
 
 class CardDetailActivity : AppCompatActivity() {
-    lateinit var cardName: TextView
-    lateinit var cardType: TextView
-    lateinit var cardDesc: TextView
-    lateinit var cardImage: ImageView
+
+    private lateinit var viewBinding: ActivityCardDetailBinding
 
     companion object{
         val DETAIL_CARD = "detail_card"
@@ -22,29 +21,22 @@ class CardDetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_card_detail)
-
-        cardName = findViewById(R.id.detail_card_name)
-        cardType = findViewById(R.id.detail_card_type)
-        cardDesc = findViewById(R.id.detail_card_desc)
-        cardImage = findViewById(R.id.detail_card_image)
-
-        val shareBtn = findViewById<Button>(R.id.action_share)
-
+        viewBinding = ActivityCardDetailBinding.inflate(layoutInflater)
+        setContentView(viewBinding.root)
 
         val receivedData: Card? = intent.getParcelableExtra<Card>(DETAIL_CARD) as Card
 
-        Log.d("Detail Card", "onCreate: $receivedData")
+        Log.d("Detail Card", "onCreate: ${receivedData?.name}")
         receivedData?.let {
-            cardName.text = it.name
-            cardType.text = it.type
-            cardDesc.text = it.desc
+            viewBinding.detailCardName.text = it.name
+            viewBinding.detailCardType.text = it.type
+            viewBinding.detailCardDesc.text = it.desc
 
             Glide.with(this)
                 .load(it.imageUri) // URL Gambar
-                .into(cardImage)
+                .into(viewBinding.detailCardImage)
 
-            shareBtn.setOnClickListener { onclickShare(receivedData) }
+            viewBinding.actionShare.setOnClickListener { onclickShare(receivedData) }
         }
     }
 
@@ -52,8 +44,8 @@ class CardDetailActivity : AppCompatActivity() {
         val intent = Intent(Intent.ACTION_SEND).apply {
             putExtra(Intent.EXTRA_SUBJECT, "Check this card!")
             putExtra(Intent.EXTRA_TEXT, "${data.name}, type card: ${data.type}.\n ${data.desc}")
-            type = "text/plain"
+            type = "image/*"
         }
-        startActivity(Intent.createChooser(intent, "Share view"))
+        startActivity(Intent.createChooser(intent, "Share this card"))
     }
 }

@@ -9,4 +9,10 @@ class Card(
     val desc: String,
     val type: String,
     val imageUri: String
-) : Parcelable
+) : Parcelable {
+    operator fun component1() = name
+    operator fun component2() = desc
+    operator fun component3() = type
+    operator fun component4() = imageUri
+
+}
