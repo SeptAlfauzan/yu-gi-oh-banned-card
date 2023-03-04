@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Yugioh 25 Banned TCG Cards</string>
+
+    <string name="my_name">Septa Alfauzan</string>
+    <string name="my_email">alfauzansepta@gmail.com</string>
+    <string name="name_profile">Septa Alfauzan</string>
+    <string name="email_profile">alfauzansepta@gmail.com</string>
+
+    <string-array name="card_name">
+        <item>Artifact Scythe</item>
+        <item>Barrier Statue of the Stormwinds</item>
+        <item>Blackwing - Gofu the Vague Shadow</item>
+        <item>Blaster, Dragon Ruler of Infernos</item>
+        <item>Block Dragon</item>
+        <item>Brilliant Fusion</item>
+        <item>Butterfly Dagger - Elma</item>
+        <item>Card of Safe Return</item>
+        <item>Chaos Ruler, the Chaotic Magical Dragon</item>
+        <item>Chicken Game</item>
+        <item>Cold Wave</item>
+        <item>Confiscation</item>
+        <item>Crystron Halqifibrax</item>
+        <item>Curious, the Lightsworn Dominion</item>
+        <item>Dandylion</item>
+        <item>Delinquent Duo</item>
+        <item>Denglong, First of the Yang Zing</item>
+        <item>Pot of Greed</item>
+        <item>Dimension Fusion</item>
+        <item>Djinn Releaser of Rituals</item>
+        <item>Eclipse Wyvern</item>
+        <item>Elder Entity Norden</item>
+        <item>Eva</item>
+        <item>Fairy Tail - Snow</item>
+    </string-array>
+
+    <string-array name="card_desc">
+        <item>You can Set this card from your hand to your Spell &amp; Trap Zone as a Spell. During your opponent\'s turn, if this Set card in the Spell &amp; Trap Zone is destroyed and sent to your GY: Special Summon it. If this card is Special Summoned during your opponent\'s turn: Your opponent cannot Special Summon monsters from the Extra Deck for the rest of this turn.</item>
+        <item>No monsters can be Special Summoned, except for WIND monsters.</item>
+        <item>Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) while you control no monsters. When this card is Special Summoned from the hand: You can Special Summon 2 "Vague Shadow Tokens" (Winged Beast-Type/DARK/Level 1/ATK 0/DEF 0), but they cannot be Tributed or be used as Synchro Material. You can banish this card and 1 or more face-up non-Tuners you control, then target 1 "Blackwing" Synchro Monster in your Graveyard whose Level equals the total Levels the banished monsters had on the field; Special Summon it, and if you do, it is treated as a Tuner.</item>
+        <item>If this card is in your hand or Graveyard: You can banish a total of 2 FIRE and/or Dragon-Type monsters from your hand and/or Graveyard, except this card; Special Summon this card. During your opponent\'s End Phase, if this card was Special Summoned: Return it to the hand. You can discard this card and 1 FIRE monster to the Graveyard, then target 1 card on the field; destroy that target. If this card is banished: You can add 1 FIRE Dragon-Type monster from your Deck to your hand. You can only use 1 "Blaster, Dragon Ruler of Infernos" effect per turn, and only once that turn.</item>
+        <item>Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand or GY) by banishing 3 EARTH monsters from your hand and/or GY. Rock monsters you control cannot be destroyed, except by battle. If this card is sent from the field to the GY: You can add up to 3 Rock monsters from your Deck to your hand, whose total Levels equal 8. You can only use this effect of "Block Dragon" once per turn.</item>
+        <item>When this card is activated: Fusion Summon 1 "Gem-Knight" Fusion Monster from your Extra Deck, using monsters from your Deck as Fusion Material, but change its ATK/DEF to 0. If this card leaves the field, destroy that monster. Once per turn: You can discard 1 Spell; the monster Special Summoned by this card\'s effect gains ATK/DEF equal to its original ATK/DEF, until the end of your opponent\'s turn. You can only activate 1 "Brilliant Fusion" per turn.</item>
+        <item>The equipped monster gains 300 ATK. When this card is destroyed and sent to the Graveyard while equipped: You can return this card to the hand.</item>
+        <item>When a monster is Special Summoned from your Graveyard, you can draw 1 card.</item>
+        <item>1 Tuner + 1+ non-Tuner monsters, If this card is Synchro Summoned: You can excavate the top 5 cards of your Deck, and if you do, you can add 1 excavated LIGHT or DARK monster to your hand, also send the remaining cards to the GY. You can banish 1 LIGHT and 1 DARK monster from your hand and/or GY, except this card; Special Summon this card from your GY, but banish it when it leaves the field. You can only use each effect of "Chaos Ruler, the Chaotic Magical Dragon" once per turn.</item>
+        <item>The player with the lowest LP takes no damage. Once per turn, during the Main Phase: The turn player can pay 1000 LP, then activate 1 of these effects; ● Draw 1 card. ● Destroy this card. ● Your opponent gains 1000 LP. Neither player can activate cards or effects in response to this effect\'s activation.</item>
+        <item>This card can only be activated at the start of Main Phase 1. Until your next turn, you and your opponent cannot play or Set any Spell or Trap Cards.</item>
+        <item>Pay 1000 Life Points. Look at your opponent\'s hand, select 1 card in it and discard that card.</item>
+        <item>2 monsters, including a Tuner. If this card is Link Summoned: You can Special Summon 1 Level 3 or lower Tuner from your hand or Deck in Defense Position, but it cannot activate its effects this turn. During your opponent\'s Main Phase or Battle Phase (Quick Effect): You can banish this card you control; Special Summon 1 Tuner Synchro Monster from your Extra Deck. (This is treated as a Synchro Summon.) You can only use each effect of "Crystron Halqifibrax" once per turn.</item>
+        <item>3 monsters with the same Attribute but different Types. If this face-up card is destroyed by battle, or leaves the field because of an opponent\'s card effect while its owner controls it: You can target 1 card in your GY; add it to your hand. You can only use each of the following effects of "Curious, the Lightsworn Dominion" once per turn. ● If this card is Link Summoned: You can send 1 card from your Deck to the GY. ● If a card(s) is sent from your Deck to the GY by an effect: Send the top 3 cards of your Deck to the GY.</item>
+        <item>If this card is sent to the Graveyard: Special Summon 2 "Fluff Tokens" (Plant-Type/WIND/Level 1/ATK 0/DEF 0) in Defense Position. These Tokens cannot be Tributed for a Tribute Summon during the turn they are Special Summoned.</item>
+        <item>Pay 1000 LP; your opponent discards 1 random card, and if they have any other cards in their hand, discard 1 more card of their choice.</item>
+        <item>1 Tuner + 1 or more non-Tuner monsters. If this card is Special Summoned: You can add 1 "Yang Zing" card from your Deck to your hand. Once per turn: You can send 1 Wyrm-Type monster from your Deck to the Graveyard; this card\'s Level becomes the sent monster\'s. If this face-up card leaves the field: You can Special Summon 1 "Yang Zing" monster from your Deck. You can only Special Summon "Denglong, First of the Yang Zing(s)" once per turn.</item>
+        <item>Draw 2 cards.</item>
+        <item>Pay 2000 Life Points. Both players Special Summon as many of their removed from play monsters as possible.</item>
+        <item>When you Ritual Summon a monster, you can banish this card from your Graveyard as 1 of the monsters required for the Ritual Summon. If a player Ritual Summons using this card, the other player cannot Special Summon while that Ritual Summoned monster is face-up on the field.</item>
+        <item>If this card is sent to the Graveyard: Banish 1 Level 7 or higher LIGHT or DARK Dragon-Type monster from your Deck. If this card is banished from your Graveyard: You can add the monster banished by this card\'s effect to your hand.</item>
+        <item>1 Synchro or Xyz Monster + 1 Synchro or Xyz Monster.When this card is Special Summoned: You can target 1 Level 4 or lower monster in your Graveyard; Special Summon it, but its effects are negated, also banish it when this card leaves the field.</item>
+        <item>If this card is sent to the GY: You can banish up to 2 other LIGHT Fairy monsters from your field and/or GY; add the same number of Level 2 or lower LIGHT Fairy monsters with different names from your Deck to your hand, except "Eva". You can only use this effect of "Eva" once per turn.</item>
+        <item>If this card is Normal or Special Summoned: You can target 1 face-up monster your opponent controls; change it to face-down Defense Position. If this card is in your GY (Quick Effect): You can banish 7 other cards from your hand, field, and/or GY; Special Summon this card.</item>
+    </string-array>
+
+    <string-array name="card_type">
+        <item>Effect Monster</item>
+        <item>Effect Monster</item>
+        <item>Tuner Monster</item>
+        <item>Effect Monster</item>
+        <item>Effect Monster</item>
+        <item>Spell Card</item>
+        <item>Spell Card</item>
+        <item>Spell Card</item>
+        <item>Synchro Monster</item>
+        <item>Spell Card</item>
+        <item>Spell Card</item>
+        <item>Spell Card</item>
+        <item>Link Monster</item>
+        <item>Link Monster</item>
+        <item>Effect Monster</item>
+        <item>Spell Card</item>
+        <item>Synchro Tuner Monster</item>
+        <item>Spell Card</item>
+        <item>Spell Card</item>
+        <item>Effect Monster</item>
+        <item>Effect Monster</item>
+        <item>Fusion Monster</item>
+        <item>Effect Monster</item>
+        <item>Effect Monster</item>
+    </string-array>
+
+    <string-array name="image_uri">
+        <item>https://images.ygoprodeck.com/images/cards/20292186.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/73356503.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/9929398.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/53804307.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/94689206.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/7394770.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/69243953.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/57953380.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/3040496.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/67616300.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/60682203.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/17375316.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/50588353.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/98095162.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/15341821.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/44763025.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/65536818.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/55144522.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/23557835.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/8903700.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/51858306.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/17412721.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/40177746.jpg</item>
+        <item>https://images.ygoprodeck.com/images/cards/55623480.jpg</item>
+    </string-array>
+
+</resources>
+
+
